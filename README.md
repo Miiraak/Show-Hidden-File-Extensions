@@ -7,23 +7,22 @@ This project provides an interactive batch script for Windows that toggles the v
 Shortcuts (.lnk) are often used by malware to disguise malicious files behind seemingly harmless names. Even when the option "Show file extensions" is enabled, .lnk files can still be hidden or visually misleading, which creates a risk of users clicking on files that appear to be harmless documents or images while actually being shortcuts to malicious payloads.
 
 This script modifies the appropriate Windows registry settings to show or hide .lnk extensions quickly and safely through a simple menu-driven interface.
+> I know some ppl that can clic on even if they saw "doc.txt.lnk" 😢 but it can still be useful for others 🤔
 
 ## Features
 - Interactive menu in batch format
 - Toggle .lnk extension visibility on demand
 - Simple and lightweight solution for Windows
-- No complex installation required
 - Registry-based changes for system behavior
-- Easy to customize and adapt for local use
 
 ## Prerequisites
 - Windows OS (only tested on 11)
 - Admin rights
 
 ## Usage
-1. Download or copy the script file (for example, toggle_lnk_visibility.bat).
+1. Download or copy the script file `showlnk.bat`
 2. Right-click the script and choose: "Run as administrator" (recommended).
-3. Select an option from the interactive menu ; 1 to enable, 2 to disable.
+3. Select an option from the interactive menu ; 1 to enable, 2 to disable, 3 to quit.
 4. Done !
 
 ## Issues and Suggestions
