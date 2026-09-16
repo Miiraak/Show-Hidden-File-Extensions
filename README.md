@@ -6,7 +6,7 @@ This project provides an interactive batch script for Windows that toggles the v
 
 Shortcuts (.lnk) are often used by malware to disguise malicious files behind seemingly harmless names. Even when the option "Show file extensions" is enabled, .lnk files can still be hidden or visually misleading, which creates a risk of users clicking on files that appear to be harmless documents or images while actually being shortcuts to malicious payloads.
 
-This script modifies the appropriate Windows registry settings to show or hide .lnk extensions quickly and safely through a simple menu-driven interface.
+This script modifies the appropriate Windows [registry settings](https://en.wikipedia.org/wiki/Shortcut_(computing)#cite_note-2) to show or hide .lnk extensions quickly and safely through a simple menu-driven interface.
 > I know some ppl that can clic on even if they saw "doc.txt.lnk" 😢 but it can still be useful for others 🤔
 
 ## Features
