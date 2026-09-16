@@ -8,10 +8,10 @@
 ::                ░  ░      ░ ▒ ░ ▒ ░  ░▒ ░ ▒░  ▒   ▒▒ ░ ▒   ▒▒ ░░ ░▒ ▒░                ::
 ::                ░      ░    ▒ ░ ▒ ░  ░░   ░   ░   ▒    ░   ▒   ░ ░░ ░                 ::
 ::                       ░    ░   ░     ░           ░  ░     ░  ░░  ░                   ::
-::     Title        : Invoke-Keylogger.ps1                                              ::
-::     Link         : https://github.com/Miiraak/show-LNK/tree/master/showink.bat       ::
+::     Title        : showlnk.bat                                                       ::
+::     Link         : https://github.com/Miiraak/Show-LNK/blob/main/showlnk.bat         ::
 ::     Version      : 1.0                                                               ::
-::     Category     : collection/keylogging                                             ::
+::     Category     : automated/helper                                                  ::
 ::     Target       : Windows 10/11                                                     ::
 ::     Description  : A script to show or hide LNK file extension in Windows.           ::
 ::                                                                                      ::
