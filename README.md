@@ -11,7 +11,8 @@ This script modifies the appropriate Windows [registry settings](https://en.wiki
 
 ## Features
 - Interactive menu in batch format
-- Toggle .lnk extension visibility on demand
+- Toggle extension visibility on demand
+  - .lnk
 - Simple and lightweight solution for Windows
 - Registry-based changes for system behavior
 
