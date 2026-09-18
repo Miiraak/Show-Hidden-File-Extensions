@@ -11,7 +11,7 @@ This script modifies the appropriate Windows registry settings to show or hide e
 
 ## Features
 - Interactive menu in batch format
-- Toggle extension visibility on demand
+- Toggle extension visibility for :
   - .lnk
 - Simple and lightweight solution for Windows
 - Registry-based changes for system behavior
