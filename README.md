@@ -27,7 +27,7 @@ This script modifies the appropriate Windows registry settings to show or hide e
 4. Done !
 
 ## Issues and Suggestions
-If you encounter any issues or have suggestions for improving the project, please use the [GitHub issue tracker](https://github.com/Miiraak/Show-LNK/issues).
+If you encounter any issues or have suggestions for improving the project, please use the [GitHub issue tracker](https://github.com/Miiraak/Show-Hidden-File-Extensions/issues).
 
 ## License
 This project is licensed under the MIT. See the [LICENSE](./LICENSE) file for more details.
