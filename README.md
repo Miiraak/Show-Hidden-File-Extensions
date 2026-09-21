@@ -23,7 +23,10 @@ This script modifies the appropriate Windows registry settings to show or hide e
   - `.SettingContent-ms`
 - Simple and lightweight solution for Windows.
 - Registry-based changes for system behavior.
-- Admin rights détection, auto restart with prompt UAC.
+- Admin rights detection, auto restart with prompt UAC.
+- Enable hidden files visibility
+- Enable extensions visibility
+- Enable super hidden files visibility
 
 ## Prerequisites
 - Windows OS (only tested on 11)
