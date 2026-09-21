@@ -4,7 +4,7 @@ A lightweight Windows batch script that allows users to show or hide hidden file
 
 ## Features
 |Features|Basic|Extended|
-|--:|:--:|:--:|
+|:--|:--:|:--:|
 |Interactive menu in batch format| ✔️ | ✔️ |
 |Extensions| <ul><li>`.lnk`</li><li>`.url`</li><li>`.pif`</li><li>`.scf`</li><li>`.library-ms`</li><li>`.website`</li><li>`.searchconnector-ms`</li><li>`.search-ms`</li><li>`.SettingContent-ms`</li></ul> | <ul><li>All extensions from basic</li><li>`.mydocs`</li><li>`.ZFSendToTarget`</li><li>`.MAPIMail`</li><li>`.DeskLink`</li></ul> |
 |Registry-based changes for system behavior| ✔️ | ✔️ |
