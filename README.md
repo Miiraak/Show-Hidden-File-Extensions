@@ -1,13 +1,6 @@
 # Windows Hidden Extension Toggle
 A lightweight Windows batch script that allows users to show or hide hidden file extensions in File Explorer, helping reduce the risk of confusion with deceptive shortcut files used by malware.
-
-## Description
-This project provides an interactive batch script for Windows that toggles the visibility of all hidden file extensions in Explorer.
-
-These hidden extensions are often used by malware to disguise malicious files behind seemingly harmless names. Even when the option "Show file extensions" is enabled, those files can still be hidden or visually misleading, which creates a risk of users clicking on files that appear to be harmless documents or images while actually being shortcuts to malicious payloads.
-
-This script modifies the appropriate Windows registry settings to show or hide extensions quickly and safely through a simple menu-driven interface.
-> I know some ppl that can clic on even if they saw "doc.txt.lnk" or else 😢 but it can still be useful for others 🤔
+[Wiki](https://github.com/Miiraak/Show-Hidden-File-Extensions/wiki)
 
 ## Features
 |Features|Basic|Extended|
