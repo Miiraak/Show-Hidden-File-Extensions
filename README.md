@@ -10,21 +10,30 @@ This script modifies the appropriate Windows registry settings to show or hide e
 > I know some ppl that can clic on even if they saw "doc.txt.lnk" or else 😢 but it can still be useful for others 🤔
 
 ## Features
-- Interactive menu in batch format
+- Interactive menu in batch format.
 - Toggle extension visibility for :
-  - .lnk
-- Simple and lightweight solution for Windows
-- Registry-based changes for system behavior
+  - `.lnk`
+  - `.url`
+  - `.pif`
+  - `.scf`
+  - `.library-ms`
+  - `.website`
+  - `.searchconnector-ms`
+  - `.search-ms`
+  - `.SettingContent-ms`
+- Simple and lightweight solution for Windows.
+- Registry-based changes for system behavior.
+- Admin rights détection, auto restart with prompt UAC.
 
 ## Prerequisites
 - Windows OS (only tested on 11)
 - Admin rights
 
 ## Usage
-1. Download or copy the script file `ShowHiddenExt.bat`
-2. Right-click the script and choose: "Run as administrator" (recommended).
-3. Select an option from the interactive menu ; 1 to enable, 2 to disable, 3 to quit.
-4. Done !
+1. Download or copy the script file `ShowHiddenExtensions.bat`
+2. Right-click the script and choose: "Run as administrator" (recommended).   
+4. Select an option from the interactive menu ; 1 to enable, 2 to disable, 3 to quit.
+5. Done !
 
 ## Issues and Suggestions
 If you encounter any issues or have suggestions for improving the project, please use the [GitHub issue tracker](https://github.com/Miiraak/Show-Hidden-File-Extensions/issues).
