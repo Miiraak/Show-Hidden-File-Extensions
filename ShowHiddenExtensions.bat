@@ -10,7 +10,7 @@
 ::                       ░    ░   ░     ░           ░  ░     ░  ░░  ░                   ::
 ::     Title        : ShowHiddenExtensions.bat                                          ::
 ::     Link         : https://github.com/Miiraak/Show-Hidden-File-Extensions/blob/main/ ::
-::     Version      : 1.5                                                               ::
+::     Version      : 1.6                                                               ::
 ::     Category     : automated/helper                                                  ::
 ::     Target       : Windows 11                                                        ::
 ::     Description  : A script to show or hide hidden file extension in Windows.        ::
@@ -48,6 +48,10 @@ if "%choice%"=="1" (
         reg delete %%i /v "NeverShowExt" /f
     ))
     echo Finished processing all keys.
+
+    REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "Hidden" /t REG_DWORD /d 1 /f
+    REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "HideFileExt" /t REG_DWORD /d 0 /f
+    REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "ShowSuperHidden" /t REG_DWORD /d 1 /f
     echo Hidden extensions are now visible.
     goto restart_explorer
 )
@@ -60,6 +64,11 @@ if "%choice%"=="2" (
         reg delete %%i /v "AlwaysShowExt" /f
     ))
     echo Finished processing all keys.
+
+    REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "Hidden" /t REG_DWORD /d 0 /f
+    REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "HideFileExt" /t REG_DWORD /d 1 /f
+    REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "ShowSuperHidden" /t REG_DWORD /d 0 /f
+    
     echo Hidden extensions are now hidden.
     goto restart_explorer
 ) 
