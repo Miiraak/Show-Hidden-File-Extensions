@@ -10,27 +10,20 @@ This script modifies the appropriate Windows registry settings to show or hide e
 > I know some ppl that can clic on even if they saw "doc.txt.lnk" or else 😢 but it can still be useful for others 🤔
 
 ## Features
-- Interactive menu in batch format.
-- Toggle extension visibility for :
-  - `.lnk`
-  - `.url`
-  - `.pif`
-  - `.scf`
-  - `.library-ms`
-  - `.website`
-  - `.searchconnector-ms`
-  - `.search-ms`
-  - `.SettingContent-ms`
-- Simple and lightweight solution for Windows.
-- Registry-based changes for system behavior.
-- Admin rights detection, auto restart with prompt UAC.
-- Enable hidden files visibility
-- Enable extensions visibility
-- Enable super hidden files visibility
+|Features|Basic|Extended|
+|--:|:--:|:--:|
+|Interactive menu in batch format| ✔️ | ✔️ |
+|Extensions| <ul><li>`.lnk`</li><li>`.url`</li><li>`.pif`</li><li>`.scf`</li><li>`.library-ms`</li><li>`.website`</li><li>`.searchconnector-ms`</li><li>`.search-ms`</li><li>`.SettingContent-ms`</li></ul> | <ul><li>All extensions from basic</li><li>`.mydocs`</li><li>`.ZFSendToTarget`</li><li>`.MAPIMail`</li><li>`.DeskLink`</li></ul> |
+|Registry-based changes for system behavior| ✔️ | ✔️ |
+|Admin rights detection, auto restart with prompt UAC| ✔️ | 🔴 _(Not working for the system rights)_ |
+|Hidden files| ✔️ | ✔️ |
+|Extensions visibility| ✔️ | ✔️ |
+|Super hidden files| ✔️ | ✔️ |
 
 ## Prerequisites
 - Windows OS (only tested on 11)
 - Admin rights
+- _(For extended)_ NT autority/System rights
 
 ## Usage
 1. Download or copy the script file `ShowHiddenExtensions.bat`
