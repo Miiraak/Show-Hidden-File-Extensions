@@ -19,10 +19,11 @@ A lightweight Windows batch script that allows users to show or hide hidden file
 - _(For extended)_ NT autority/System rights
 
 ## Usage
-1. Download or copy the script file `ShowHiddenExtensions.bat`
-2. Right-click the script and choose: "Run as administrator" (recommended).   
-4. Select an option from the interactive menu ; 1 to enable, 2 to disable, 3 to quit.
-5. Done !
+1. Download the repository : <img width="80" height="30" alt="image" src="https://github.com/user-attachments/assets/2b62872c-b2cc-4307-be6e-99c352143170" /> <img width="105" height="25" alt="image" src="https://github.com/user-attachments/assets/5d111fd3-da3f-4104-81b4-56cc3a9eb8f9" />
+2. Right-click the zip and Extract all.
+4. Right-click the extracted script and choose: "Run as administrator" (recommended).   
+5. Select an option from the interactive menu ; 1 to enable, 2 to disable, 3 to quit.
+> Done, you can quickly see if changes have occurred by taking a look into the sample folder!
 
 ## Issues and Suggestions
 If you encounter any issues or have suggestions for improving the project, please use the [GitHub issue tracker](https://github.com/Miiraak/Show-Hidden-File-Extensions/issues).
